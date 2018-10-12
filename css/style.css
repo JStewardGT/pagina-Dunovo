@@ -1,9 +1,9 @@
 /* TITULO: font-family: 'Andada', serif;
 TEXTO: font-family: 'Roboto', sans-serif;*/
 
-/* *{
+ *{
     border: solid 1px red;
-} */
+} 
 
 body {
     margin : 0px;
@@ -593,6 +593,19 @@ th {
     #contacto{
         height: auto;
     }
+	
+	.titulo p, #tabla1 table tbody tr th , #tabla2 table tbody tr th, #tabla3 table tbody tr th, #tabla4 table tbody tr th , #tabla5 table tbody tr th, #tabla6 table tbody tr th{
+		font-size:15px;
+	}
+	
+	#intro article ul li, #tabla1 table thead tr th, #tabla2 table thead tr th, #p3 h3, #tabla3 table thead tr th, #p4 h3, #p5 h3 #plumillas p, #tabla5 table thead tr th , #tabla6 table thead tr th, .boton h6 a{
+		font-size:18px;
+	}
+		
+	.titulo h1, #pernos h2, #art2 h2, #seguros h2, #plumillas h1, #contacto article ul li{
+		font-size:20px;
+	}
+	
     .text-sm-15{
         font-size: 16px !important;
     }
