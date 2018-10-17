@@ -210,7 +210,7 @@
                 </div>
             </div>
             <div class="boton mt-5 text-center">
-                <h6><a href="#">Volver al inicio</a></h6>
+                <h6><a href="#intro">Volver al inicio</a></h6>
             </div>
         
 
@@ -354,7 +354,7 @@
                 </div>
 
                     <div class="boton mt-5 text-center">
-                        <h6><a href="#">Volver al inicio</a></h6>
+                        <h6><a href="#intro">Volver al inicio</a></h6>
                     </div>
 
             </article>
@@ -492,7 +492,7 @@
             </div>
         </div>
         <div class="boton mt-5 text-center">
-            <h6><a href="#">Volver al inicio</a></h6>
+            <h6><a href="#intro">Volver al inicio</a></h6>
         </div>
 
     </article>
@@ -524,14 +524,21 @@
             </div>
         </div>
         <div class="boton mt-5 text-center">
-            <h6><a href="#">Volver al inicio</a></h6>
+            <h6><a href="#intro">Volver al inicio</a></h6>
         </div>
     </section>
 
     <!--Fin de secciones-->
 
-                <script src="js/jquery-3.3.1.min.js"></script>
-                <script src="js/popper.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Get patch fixes within a minor version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
